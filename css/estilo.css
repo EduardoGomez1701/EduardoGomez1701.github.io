@@ -27,7 +27,7 @@ img {
 
 #premio {
     color: rgb(0, 0, 0);
-    position: absolute;
+    position: relative;
     font-weight: bold;
     font-size: 25px;
     padding-top: 20px;
