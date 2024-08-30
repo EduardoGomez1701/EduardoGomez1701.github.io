@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background-image: url("http://127.0.0.1:5500/image/fondo.png ");
+}
+
+.vara {
+    height: 70px;
+    width: 15px;
+    background-color: #aaa;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #000;
+    border-top: 5px solid #000;
+    z-index: 1000;
+}
+
+img {
+    z-index: 100;
+    transition: all 5s;
+}
+
+#premio {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #C13584; /* Color de fondo similar al de Instagram */
+    padding: 15px 30px; /* Ajusta el padding para que el botón sea más grande */
+    border-radius: 5px;
+    font-size: 24px; /* Tamaño de fuente más grande */
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.social-link:hover {
+    background-color: #e1306c; /* Color de fondo al pasar el ratón */
+}
